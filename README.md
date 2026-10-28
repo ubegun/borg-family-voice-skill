@@ -17,4 +17,10 @@ The microphone opens on the operator's command and never otherwise.
 Status: assembling. The canonical document lands here first; content is
 published only after a sanitize review.
 
+## Architecture
+
+See [`canonical-voice-skill.md`](canonical-voice-skill.md) for the evidence-
+weighted architecture, policy boundaries, privacy model, tuning baseline, and
+conformance requirements.
+
 Licensed under the Apache License, Version 2.0.
