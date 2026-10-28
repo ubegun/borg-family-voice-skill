@@ -14,13 +14,19 @@ The microphone opens on the operator's command and never otherwise.
   gate, barge-in), to be implemented before it ships.
 - **scribe** — local-first transcription with an explicit read boundary.
 
-Status: assembling. The canonical document lands here first; content is
-published only after a sanitize review.
+Status: **architecture-first, pre-release**. This repository is private while
+the public release is prepared. It currently documents the architecture and
+evidence; it is not yet an installable skill. Public visibility follows the
+sanitize, license, diagram, and implementation-readiness checks.
 
 ## Architecture
 
 See [`canonical-voice-skill.md`](canonical-voice-skill.md) for the evidence-
 weighted architecture, policy boundaries, privacy model, tuning baseline, and
 conformance requirements.
+
+See [`voices.md`](voices.md) for the offline mouth-engine survey, per-model
+license constraints, and language coverage. Engine and model licenses are
+independent of this repository's Apache-2.0 documentation license.
 
 Licensed under the Apache License, Version 2.0.

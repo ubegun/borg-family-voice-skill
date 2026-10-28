@@ -148,6 +148,13 @@ Also the phonemizer inside Piper 1 (the reason that engine is GPLv3).
 
 ## Choosing
 
+This repository's Apache-2.0 license covers its own documentation and future
+original code only. It does not relicense engines or model weights. In
+particular, a GPLv3 Piper runtime must remain under GPLv3, and every voice model
+must retain its own license and required notices. A future distribution must
+either keep such components as separately obtained runtime dependencies or
+choose a license-compatible stack after legal review.
+
 - **Pragmatic default**: Piper engine (accept GPLv3 for the runtime) +
   permissively-licensed voices — ru: `dmitri`/`denis` (CC0); uk:
   `tetiana-high`/`mykyta-high`/`oleksa-high` (Apache 2.0) or

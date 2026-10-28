@@ -285,7 +285,7 @@ The previous `30 s` recognition chunk dominated round-trip delay. Any implementa
 
 ## 12. Publication status
 
-The mailbox architecture and its tuning baseline come from a deployed implementation. Duplex is a reconstructed design and proposed public policy. Expression is schema-only. Mermaid source in this document has not been rendered locally and must be validated with a pinned renderer before publication.
+The mailbox architecture and its tuning baseline come from a deployed implementation. Duplex is a reconstructed design and proposed public policy. Expression is schema-only. All four Mermaid blocks were rendered successfully with Mermaid CLI `11.12.0`; publication automation should pin and repeat that check.
 
-This document intentionally contains no machine-specific paths, hostnames, account names, device serials, or private rig internals. Repository creation, remote publication, and a public visibility change remain separate operator-authorized steps.
+This document intentionally contains no machine-specific paths, hostnames, account names, device serials, or private rig internals. The repository currently uses a private remote as a staging area. Public visibility remains a separate operator-authorized step after sanitize, license, and release-readiness review.
 
