@@ -14,10 +14,10 @@ The microphone opens on the operator's command and never otherwise.
   gate, barge-in), to be implemented before it ships.
 - **scribe** — local-first transcription with an explicit read boundary.
 
-Status: **architecture-first, pre-release**. This repository is private while
-the public release is prepared. It currently documents the architecture and
-evidence; it is not yet an installable skill. Public visibility follows the
-sanitize, license, diagram, and implementation-readiness checks.
+Status: **public architecture-first pre-release**. The repository currently
+documents the architecture and evidence; it is not yet an installable skill.
+Implementation releases will follow the sanitize, license, diagram, and
+conformance-readiness checks.
 
 ## Architecture
 
